@@ -1,4 +1,40 @@
-<header>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>按摩兌換券</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background-color: #f9f6f2;
+        }
+        h1 {
+            color: #ff6f61;
+        }
+        p {
+            font-size: 18px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #ff6f61;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #e64e44;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎁 按摩兌換券 🎁</h1>
+    <p>恭喜妳！這是一張專屬的按摩券，可以向我兌換一次精心準備的全身按摩服務！</p>
+    <p>有效期限：永久有效 💕</p>
+    <button onclick="alert('兌換成功！準備好享受吧 ❤️')">立即兌換</button>
+</body>
+</html>
 
 <!--
   <<< Author notes: Course header >>>
